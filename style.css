@@ -29,36 +29,39 @@ h3 {
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #7D775C;
+	color: red;
+	font-weight: bold; 
 	}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: blue;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: grey;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: blue;
 	}
 abbr {
 	border-bottom: none;
 	}
 
-
-/* specific divs */
 .page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-	position: relative;
+	background: url(https://media.giphy.com/media/Vm6YGB3Ng8lnW/giphy.gif) no-repeat top center; 
+	padding: 0 100px 0 50px;  
+	position: absolute;
+	border-style: solid; 
+	border-width: 15px; 
+	border-color: blue; 
+	margin-left: 50px; 
+	width: 1000px; 
+	blend: lightblue;  
 	}
-
-.intro { 
+	intro { 
 	min-width: 470px;
 	width: 100%;
 	}
@@ -91,27 +94,71 @@ header {
 	padding-top: 20px;
 	height: 87px;
 }
-
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
+#zen-summary {
 	width: 160px; 
-	float: left;
+	position: fixed; 
+	bottom: 8px;
+	right: 150px; 
+	background: lightgreen; 
+	color: black; 
+	border-style: solid; 
+	border-radius: 8px; 
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
-	}
-
+}
+#zen-summary p:nth-child(2) {
+    background: rgba(12, 24, 23, .3);
+		border-style: outset; 
+}
+a {
+		color: blue; 
+}
+ a:hover{
+		color: red; 
+}
 .preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
+	padding: 70px; 
+	width: 300px;
+	height: 300px;
+	float: right; 
+	border-style: solid; 
+	border-radius: 50%; 
+	text-align: center; 
+	background-color: orange; 
+	position: fixed; 
+	top: 5px; 
+	right: 20px; 
 	}
 .supporting {	
-	padding-left: 10px; 
 	margin-bottom: 40px;
+	float: left; 
+	width: 650px; 
+	margin-left: 175px; 
+	margin-top: 150px; 
+	padding: 10px; 
 	}
-
+#zen-explanation {
+	border-style: solid; 
+	border-radius: 8px; 
+	margin-top: 10px; 
+}
+#zen-participation {
+	border-style: solid; 
+	border-radius: 8px; 
+	margin-top: 10px; 
+}
+#zen-benefits {
+	border-style: solid; 
+	border-radius: 8px;
+	margin-top: 10px; 
+}
+#zen-requirements {
+	border-style: solid; 
+	border-radius: 8px; 
+	margin-top: 10px; 
+}
 footer { 
 	text-align: center; 
 	}
@@ -120,16 +167,17 @@ footer a:link, footer a:visited {
 	}
 
 .sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: blue; 
+	border-radius: 8px; 
+	background: lightgreen; 
+	position: fixed; 
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
 	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 10px; 
-	margin-top: 150px; 
 	width: 130px; 
 	}
 .sidebar h3.select { 
@@ -175,20 +223,4 @@ footer a:link, footer a:visited {
 	padding-top: 5px; 
 	margin-bottom: 5px;
 	list-style-type: none;
-	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: #B3AE94;
-	}
-
-
-.extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
 	}

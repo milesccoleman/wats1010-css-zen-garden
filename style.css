@@ -51,7 +51,7 @@ abbr {
 	}
 
 .page-wrapper { 
-	background: url(https://media.giphy.com/media/Vm6YGB3Ng8lnW/giphy.gif) no-repeat top center; 
+	background: url(https://media.giphy.com/media/Vm6YGB3Ng8lnW/giphy.gif) no-repeat bottom center; 
 	padding: 0 100px 0 50px;  
 	position: absolute;
 	border-style: solid; 
@@ -97,7 +97,7 @@ header {
 #zen-summary {
 	width: 160px; 
 	position: fixed; 
-	bottom: 8px;
+	bottom: 1px;
 	right: 150px; 
 	background: lightgreen; 
 	color: black; 
@@ -119,45 +119,52 @@ a {
 		color: red; 
 }
 .preamble {
-	padding: 70px; 
+	padding: 75px; 
 	width: 300px;
 	height: 300px;
 	float: right; 
 	border-style: solid; 
 	border-radius: 50%; 
-	text-align: center; 
-	background-color: orange; 
+	background-color: lightblue; 
 	position: fixed; 
 	top: 5px; 
 	right: 20px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	line-spacing: 0em;
 	}
 .supporting {	
-	margin-bottom: 40px;
+	margin-bottom: 340px;
 	float: left; 
 	width: 650px; 
 	margin-left: 175px; 
-	margin-top: 150px; 
-	padding: 10px; 
 	}
 #zen-explanation {
 	border-style: solid; 
 	border-radius: 8px; 
 	margin-top: 10px; 
+	padding: 25px; 
 }
 #zen-participation {
 	border-style: solid; 
 	border-radius: 8px; 
 	margin-top: 10px; 
+	padding: 25px; 
 }
 #zen-benefits {
 	border-style: solid; 
 	border-radius: 8px;
 	margin-top: 10px; 
+	padding: 25px;
 }
 #zen-requirements {
 	border-style: solid; 
 	border-radius: 8px; 
 	margin-top: 10px; 
+	padding: 25px;
 }
 footer { 
 	text-align: center; 

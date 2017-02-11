@@ -51,7 +51,8 @@ abbr {
 	}
 
 .page-wrapper { 
-	background: url(https://media.giphy.com/media/Vm6YGB3Ng8lnW/giphy.gif) no-repeat bottom center; 
+	background: url(http://payload470.cargocollective.com/1/5/171714/11706062/robots-2b.gif) no-repeat top center; 
+	background-color: yellow; 
 	padding: 0 100px 0 50px;  
 	position: absolute;
 	border-style: solid; 
@@ -60,6 +61,7 @@ abbr {
 	margin-left: 50px; 
 	width: 1000px; 
 	blend: lightblue;  
+	height: 1900px; 
 	}
 	intro { 
 	min-width: 470px;
@@ -95,22 +97,24 @@ header {
 	height: 87px;
 }
 #zen-summary {
-	width: 160px; 
+	width: 300px; 
 	position: fixed; 
-	bottom: 1px;
-	right: 150px; 
+	bottom: 40px;
+	right: 60px; 
 	background: lightgreen; 
 	color: black; 
 	border-style: solid; 
 	border-radius: 8px; 
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
 }
 #zen-summary p:nth-child(2) {
-    background: rgba(12, 24, 23, .3);
-		border-style: outset; 
+		border-style: dotted; 
+		border-width: 1px; 
+		width: 275px; 
+		margin-left: 10px; 
+		background: darkgray; 
 }
 a {
 		color: blue; 
@@ -128,7 +132,7 @@ a {
 	background-color: lightblue; 
 	position: fixed; 
 	top: 5px; 
-	right: 20px; 
+	right: 5px; 
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
@@ -138,36 +142,51 @@ a {
 	}
 .supporting {	
 	margin-bottom: 340px;
-	float: left; 
-	width: 650px; 
+	float: left;  
 	margin-left: 175px; 
+	position: relative; 
 	}
 #zen-explanation {
 	border-style: solid; 
 	border-radius: 8px; 
 	margin-top: 10px; 
 	padding: 25px; 
+	width: 400px;
+	background: white; 
 }
 #zen-participation {
 	border-style: solid; 
 	border-radius: 8px; 
 	margin-top: 10px; 
 	padding: 25px; 
+	width: 400px;
+	background: white; 
+	margin-left: 100px; 
 }
 #zen-benefits {
 	border-style: solid; 
 	border-radius: 8px;
 	margin-top: 10px; 
 	padding: 25px;
+	width: 400px;
+	background: white; 
+	margin-left: 200px; 
 }
 #zen-requirements {
 	border-style: solid; 
 	border-radius: 8px; 
 	margin-top: 10px; 
 	padding: 25px;
+	width: 400px;
+	background: white; 
+	margin-left: 300px; 
 }
 footer { 
 	text-align: center; 
+	border-style: solid; 
+	border-radius: 8px; 
+	background: lightblue; 
+	margin-top: 10px; 
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
@@ -175,8 +194,6 @@ footer a:link, footer a:visited {
 
 .sidebar {
 	border-style: solid; 
-	border-width: 1px; 
-	border-color: blue; 
 	border-radius: 8px; 
 	background: lightgreen; 
 	position: fixed; 

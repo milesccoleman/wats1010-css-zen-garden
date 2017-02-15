@@ -14,11 +14,8 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font: 75% arial, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
 	padding: 0;
 	}
 p { 
@@ -26,7 +23,7 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font: italic normal 1.4em airal, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: red;
@@ -52,7 +49,7 @@ abbr {
 
 .page-wrapper { 
 	background: url(http://payload470.cargocollective.com/1/5/171714/11706062/robots-2b.gif) no-repeat top center; 
-	background-color: yellow; 
+	background-color: gold; 
 	padding: 0 100px 0 50px;  
 	position: absolute;
 	border-style: solid; 
@@ -101,7 +98,7 @@ header {
 	position: fixed; 
 	bottom: 40px;
 	right: 60px; 
-	background: lightgreen; 
+	background: lightblue; 
 	color: black; 
 	border-style: solid; 
 	border-radius: 8px; 
@@ -114,7 +111,16 @@ header {
 		border-width: 1px; 
 		width: 275px; 
 		margin-left: 10px; 
-		background: darkgray; 
+		background: lightblue;  
+}
+#zen-summary {
+  background: lightblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+#zen-summary:hover {
+  background: white; 
 }
 a {
 		color: blue; 
@@ -140,6 +146,15 @@ a {
 	text-decoration: none;
 	line-spacing: 0em;
 	}
+.preamble {
+  background: lightblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.preamble:hover {
+  background: white; 
+}
 .supporting {	
 	margin-bottom: 340px;
 	float: left;  
@@ -154,6 +169,19 @@ a {
 	width: 400px;
 	background: white; 
 }
+#zen-explanation {
+  background: white;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+	-ms-transform: translate(100px); 
+  
+}
+#zen-explanation:hover {
+  background: rgba(265, 165, 0, .95);
+	  -webkit-transform: translate(100px); 
+    transform: translate(100px);
+}
 #zen-participation {
 	border-style: solid; 
 	border-radius: 8px; 
@@ -162,6 +190,19 @@ a {
 	width: 400px;
 	background: white; 
 	margin-left: 100px; 
+}
+#zen-participation {
+  background: white;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+	-ms-transform: translate(-100px); 
+  
+}
+#zen-participation:hover {
+  background: rgba(265, 165, 0, .95);
+	  -webkit-transform: translate(-100px); 
+    transform: translate(-100px);
 }
 #zen-benefits {
 	border-style: solid; 
@@ -172,6 +213,18 @@ a {
 	background: white; 
 	margin-left: 200px; 
 }
+#zen-benefits {
+  background: white;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+	-ms-transform: translate(-100px); 
+}
+#zen-benefits:hover {
+  background: rgba(265, 165, 0, .95);
+	-webkit-transform: translate(-100px); 
+   transform: translate(-100px);
+}
 #zen-requirements {
 	border-style: solid; 
 	border-radius: 8px; 
@@ -180,6 +233,18 @@ a {
 	width: 400px;
 	background: white; 
 	margin-left: 300px; 
+}
+#zen-requirements {
+  background: white;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+	-ms-transform: translate(-100px); 
+}
+#zen-requirements:hover {
+  background: rgba(265, 165, 0, .95);
+	-webkit-transform: translate(100px); 
+   transform: translate(-100px);
 }
 footer { 
 	text-align: center; 
@@ -195,9 +260,18 @@ footer a:link, footer a:visited {
 .sidebar {
 	border-style: solid; 
 	border-radius: 8px; 
-	background: lightgreen; 
+	background: lightblue; 
 	position: fixed; 
 	}
+.sidebar {
+  background: lightblue;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.sidebar:hover {
+  background: white; 
+}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
 	background: transparent url(paper-bg.jpg) top left repeat-y; 
@@ -234,7 +308,6 @@ footer a:link, footer a:visited {
 	white-space: nowrap;
 	overflow: hidden;
 	}
-
 
 .sidebar ul {
 	margin: 0;
